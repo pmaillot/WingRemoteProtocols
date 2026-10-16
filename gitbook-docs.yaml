@@ -9,8 +9,6 @@ structure:
   # Landing page of the space.
   readme: README.md
   # Table of contents / navigation.
-  summary:
 
 # Optional: redirect old URLs to new pages.
-# Keys are old paths, values are file paths relative to `root`.
-redirects:
+# Keys are old paths, values are file paths relative to `root`
