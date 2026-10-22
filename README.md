@@ -5,7 +5,8 @@ and published as pdf file. I created this repo as a way to see what it would loo
 document, hoping for it not to be too far from the original files and ease of reading Word and pdf files offer. 
 
 I have to say I am disappointed with the current results. Furthermore gitbook sync process reports an error:
-Failed to parse site configuration — "": expected "site" to be defined which I have no clue what it means.
+Failed to parse site configuration — "": expected "site" to be defined which I think refers to the C char arrays 
+initialization to "" being mis-interpreted by GitBook.
 
 But for now this repo will keep existing, while the actual pdf file will continue to be published and of 
 course available as a free document at 
