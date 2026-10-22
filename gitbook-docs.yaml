@@ -1,14 +1,11 @@
-# .gitbook-docs.yaml
-# Place this file at the root of your Git repository.
-# GitBook Git Sync only recognizes the exact filename ".gitbook.yaml".
-
-# Directory containing your docs (relative to the repo root).
-root: ./
-
-structure:
-  # Landing page of the space.
-  readme: README.md
-  # Table of contents / navigation.
-
-# Optional: redirect old URLs to new pages.
-# Keys are old paths, values are file paths relative to `root`
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Patrick-Gilles Maillot Docs
+  structure:
+    - type: space
+      key: space-1
+      title: Documentation
+      path: documentation
+      default: true
+      content:
+        directory: ./documentation
